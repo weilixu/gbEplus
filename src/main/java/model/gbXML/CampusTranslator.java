@@ -212,7 +212,7 @@ public class CampusTranslator {
 			if(lightPlugin==null){
 				lightPlugin = new ASHRAELightData();//default to ASHRAE data
 			}
-			Map<String, String[]> lightMap = oaPlugin.getValuesInHashMap(space.getSpaceType());
+			Map<String, String[]> lightMap = lightPlugin.getValuesInHashMap(space.getSpaceType());
 			
 			//************Set-up Lights assumption***********
 			EnergyPlusDataAPI equipPlugin = null;
@@ -224,7 +224,7 @@ public class CampusTranslator {
 			if(equipPlugin==null){
 				equipPlugin = new DOEReferenceEquipmentData();//default to DOE reference data
 			}
-			Map<String, String[]> equipMap = oaPlugin.getValuesInHashMap(space.getSpaceType());
+			Map<String, String[]> equipMap = equipPlugin.getValuesInHashMap(space.getSpaceType());
 			
 			//*********Start processing the data**********************************
 			if (conditionType.equals("Heated") || conditionType.equals("Cooled")

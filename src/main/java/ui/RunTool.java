@@ -26,7 +26,7 @@ public class RunTool {
         FilesPath.setConfigPath("/Users/weilixu/Documents/workspace/BuildSimHub/WebContent/WEB-INF/server.config");
 
         SAXBuilder builder = new SAXBuilder();
-        File xmlFile = new File("/Users/weilixu/Dropbox/BCD-weili/gbXMLTest/ConferenceCenter.xml");
+        File xmlFile = new File("/Users/weilixu/Dropbox/BCD-weili/gbXMLTest/temp.xml");
         Document doc;
         try {
             doc = (Document) builder.build(xmlFile);
