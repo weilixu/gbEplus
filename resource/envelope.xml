@@ -1,0 +1,1674 @@
+<envelope>
+	<dataset setname="Construction" category="Climate Zone 1">
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.127</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">1.1</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 1">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">1.3</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 1">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">6.81</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.25</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 1">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">6.81</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.25</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 1">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">7.72</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.36</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>			
+	</dataset>
+	<dataset setname="Construction" category="Climate Zone 2">
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.127</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">1.1</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.88</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 2">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">1.3</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 2">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">6.81</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.25</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 2">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">6.81</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.25</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 2">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">7.72</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.36</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 2">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>			
+	</dataset>	
+	<dataset setname="Construction" category="Climate Zone 3">
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.167</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">1.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.88</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 3">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">1.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 3">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">3.69</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.25</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 3">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">3.41</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.25</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 3">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">3.92</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.39</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 3">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>			
+	</dataset>	
+	<dataset setname="Construction" category="Climate Zone 4">
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.167</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.4</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">4.17</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 4">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.6</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 4">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">2.27</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.4</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 4">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">2.84</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.4</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 4">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">3.92</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.49</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 4">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>				
+	</dataset>	
+	<dataset setname="Construction" category="Climate Zone 5">
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.167</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.4</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">4.17</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 5">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.6</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 5">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">1.99</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.4</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 5">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">2.56</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.4</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 5">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">3.92</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.49</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 5">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>			
+	</dataset>
+	<dataset setname="Construction" category="Climate Zone 6">
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.167</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.4</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">4.17</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 6">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.6</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 6">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">1.99</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.4</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 6">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">2.56</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.4</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 6">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">3.92</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.49</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 6">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>			
+	</dataset>
+	<dataset setname="Construction" category="Climate Zone 7">
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.167</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.4</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">4.17</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 7">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">3.5</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 7">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">1.99</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.45</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 7">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">2.27</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.45</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 7">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">3.92</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.68</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 7">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>			
+	</dataset>	
+	<dataset setname="Construction" category="Climate Zone 8">
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Stucco</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.0254</field>
+			<field description = "Conductivity" type="Double">0.72</field>
+			<field description = "Density" type="Double">1856.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Built-Up Roof</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.095</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">1120.0</field>
+			<field description = "Specific Heat" type="Double">1460.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Roof Insulation</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.167</field>
+			<field description = "Conductivity" type="Double">0.049</field>
+			<field description = "Density" type="Double">265.0</field>
+			<field description = "Specific Heat" type="Double">836.8</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Metal Surface</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.0008</field>
+			<field description = "Conductivity" type="Double">45.28</field>
+			<field description = "Density" type="Double">7824.0</field>
+			<field description = "Specific Heat" type="Double">500.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">1/2IN Gypsum</field>
+			<field description = "Roughness" type="String">Smooth</field>
+			<field description = "Thickness" type="Double">0.01271</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Cast Concrete</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thickness" type="Double">0.1</field>
+			<field description = "Conductivity" type="Double">1.4</field>
+			<field description = "Density" type="Double">2100.0</field>
+			<field description = "Specific Heat" type="Double">840.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">BG Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.125</field>
+			<field description = "Conductivity" type="Double">0.4075</field>
+			<field description = "Density" type="Double">1520.0</field>
+			<field description = "Specific Heat" type="Double">853.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Floor Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1016</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Slab On Grade Concrete</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.1524</field>
+			<field description = "Conductivity" type="Double">2.31</field>
+			<field description = "Density" type="Double">2322.0</field>
+			<field description = "Specific Heat" type="Double">832.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Wall Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">2.4</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">4.95</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Carpet</field>
+			<field description = "Roughness" type="String">VeryRough</field>
+			<field description = "Thermal Resistance" type="Double">0.22</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="Material:NoMass" reference = "Climate Zone 8">
+			<field description = "Name" type="String">SOG Insulation</field>
+			<field description = "Roughness" type="String">Rough</field>
+			<field description = "Thermal Resistance" type="Double">3.5</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 8">
+			<field description = "Name" type = "String">Simple Baseline</field>
+			<field description = "U-Factor" type="Double">1.99</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.45</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 8">
+			<field description = "Name" type = "String">Simple Curtain Wall</field>
+			<field description = "U-Factor" type="Double">2.27</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.45</field>
+		</object>
+		<object description="WindowMaterial:SimpleGlazingSystem" reference="Climate Zone 8">
+			<field description = "Name" type = "String">Simple Skylight</field>
+			<field description = "U-Factor" type="Double">3.92</field>
+			<field description = "Solar Heat Gain Coefficient" type="Double">0.68</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Wall</field>
+			<field description = "Outside Layer" type="String">Stucco</field>
+			<field description = "Layer 2" type="String">Gypsum Board</field>
+			<field description = "Layer 3" type="String">Wall Insulation</field>
+			<field description = "Layer 4" type = "String">Gypsum Board</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Roof</field>
+			<field description = "Outside Layer" type="String">Built-Up Roof</field>
+			<field description = "Layer 2" type="String">Roof Insulation</field>
+			<field description = "Layer 3" type="String">Metal Surface</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Partition</field>
+			<field description = "Outside Layer" type="String">1/2IN Gypsum</field>
+			<field description = "Layer 2" type="String">1/2IN Gypsum</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Internal Floor</field>
+			<field description = "Outside Layer" type="String">Cast Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Below Grade Wall</field>
+			<field description = "Outside Layer" type="String">BG Concrete</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project External Floor</field>
+			<field description = "Outside Layer" type="String">Metal Surface</field>
+			<field description = "Layer 2" type="String">Steel Joist Floor with Batt Insulation</field>
+			<field description = "Layer 3" type="String">Floor Concrete</field>
+			<field description = "Layer 4" type = "String">Carpet</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Slab On Grade Floor</field>
+			<field description = "Outside Layer" type="String">Slab On Grade Concrete</field>
+			<field description = "Layer 2" type="String">SOG Insulation</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Window</field>
+			<field description = "Outside Layer" type="String">Simple Baseline</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Curtain Wall</field>
+			<field description = "Outside Layer" type="String">Simple Curtain Wall</field>
+		</object>
+		<object description="Construction" reference = "Climate Zone 8">
+			<field description = "Name" type="String">Project Skylight</field>
+			<field description = "Outside Layer" type="String">Simple Skylight</field>
+		</object>
+	</dataset>	
+</envelope>

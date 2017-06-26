@@ -1,0 +1,460 @@
+<dataset year="2010" reference="DOE Commercial Prototype Buildings">
+	<light spaceType="office_enclosed" unit="WattPerSquareMeter">12</light>
+	<light spaceType="office_openplan" unit="WattPerSquareMeter">12</light>
+	<light spaceType="conference_meeting_multipurpose" unit="WattPerSquareMeter">14</light>
+	<light spaceType="classroom_lecture_training" unit="WattPerSquareMeter">15</light>
+	<light spaceType="classroom_lecture_training_penitentiary" unit="WattPerSquareMeter">14</light>
+	<light spaceType="lobby" unit="WattPerSquareMeter">14</light>
+	<light spaceType="lobby_for_hotel" unit="WattPerSquareMeter">12</light>
+	<light spaceType="lobby_for_performing_arts_theater" unit="WattPerSquareMeter">36</light>
+	<light spaceType="lobby_for_motion_picture_theater" unit="WattPerSquareMeter">12</light>
+	<light spaceType="audience_area" unit="WattPerSquareMeter">10</light>
+	<light spaceType="audience_area_for_gymnasium" unit="WattPerSquareMeter">4</light>
+	<light spaceType="audience_area_for_exercise_center" unit="WattPerSquareMeter">3</light>
+	<light spaceType="audience_area_for_convention_center" unit="WattPerSquareMeter">8</light>
+	<light spaceType="audience_area_for_penitentiary" unit="WattPerSquareMeter">8</light>
+	<light spaceType="audience_area_for_religious_buildings" unit="WattPerSquareMeter">18</light>
+	<light spaceType="audience_area_for_sports_arena" unit="WattPerSquareMeter">4</light>
+	<light spaceType="audience_area_for_performing_arts_theater" unit="WattPerSquareMeter">28</light>
+	<light spaceType="audience_area_for_motion_picture_theater" unit="WattPerSquareMeter">13</light>
+	<light spaceType="atrium_first_three_floors" unit="WattPerSquareMeter">6</light>
+	<light spaceType="atrium_each_additional_floor" unit="WattPerSquareMeter">2</light>
+	<light spaceType="lounge_recreation" unit="WattPerSquareMeter">13</light>
+	<light spaceType="lounge_recreation_for_hotel" unit="WattPerSquareMeter">9</light>
+	<light spaceType="dining_area" unit="WattPerSquareMeter">10</light>
+	<light spaceType="dining_area_for_penitentiary" unit="WattPerSquareMeter">14</light>
+	<light spaceType="dining_area_for_hotel" unit="WattPerSquareMeter">14</light>
+	<light spaceType="dining_area_for_motel" unit="WattPerSquareMeter">13</light>
+	<light spaceType="dining_area_for_bar_lounge" unit="WattPerSquareMeter">15</light>
+	<light spaceType="dining_area_for_family_dining" unit="WattPerSquareMeter">23</light>
+	<light spaceType="food_preparation" unit="WattPerSquareMeter">13</light>
+	<light spaceType="laboratory" unit="WattPerSquareMeter">15</light>
+	<light spaceType="restroom" unit="WattPerSquareMeter">10</light>
+	<light spaceType="dressing_locker_fitting_room" unit="WattPerSquareMeter">6</light>
+	<light spaceType="corridor_for_hospital" unit="WattPerSquareMeter">23</light>
+	<light spaceType="corridor_for_manufacturing_facility" unit="WattPerSquareMeter">23</light>
+	<light spaceType="stair_active" unit="WattPerSquareMeter">6</light>
+	<light spaceType="active_storage" unit="WattPerSquareMeter">9</light>
+	<light spaceType="active_storage_for_hospital" unit="WattPerSquareMeter">10</light>
+	<light spaceType="inactive_storage" unit="WattPerSquareMeter">3</light>
+	<light spaceType="inactive_storage_for_museum" unit="WattPerSquareMeter">9</light>
+	<light spaceType="electrical_mechanical" unit="WattPerSquareMeter">16</light>
+	<light spaceType="gymnasium_exercise_center_playing_area" unit="WattPerSquareMeter">15</light>
+	<light spaceType="gymnasium_exercise_center_exercise_area" unit="WattPerSquareMeter">10</light>
+	<light spaceType="courthouse_police_station_penitentiary_courtroom" unit="WattPerSquareMeter">20</light>
+	<light spaceType="courthouse_police_station_penitentiary_confinement_cells" unit="WattPerSquareMeter">10</light>
+	<light spaceType="courthouse_police_station_penitentiary_judge_chambers" unit="WattPerSquareMeter">14</light>
+	<light spaceType="fire_station_engine_room" unit="WattPerSquareMeter">9</light>
+	<light spaceType="fire_station_sleeping_quarters" unit="WattPerSquareMeter">3</light>
+	<light spaceType="post_office_sorting_area" unit="WattPerSquareMeter">13</light>
+	<light spaceType="convention_center_exhibit_space" unit="WattPerSquareMeter">14</light>
+	<light spaceType="library_card_file_and_cataloging" unit="WattPerSquareMeter">12</light>
+	<light spaceType="library_stacks" unit="WattPerSquareMeter">18</light>
+	<light spaceType="library_reading_area" unit="WattPerSquareMeter">13</light>
+	<light spaceType="hospital_emergency" unit="WattPerSquareMeter">29</light>
+	<light spaceType="hospital_recovery" unit="WattPerSquareMeter">9</light>
+	<light spaceType="hospital_nurse_station" unit="WattPerSquareMeter">11</light>
+	<light spaceType="hospital_exame_treatment" unit="WattPerSquareMeter">16</light>
+	<light spaceType="hospital_pharmacy" unit="WattPerSquareMeter">13</light>
+	<light spaceType="hospital_patient_room" unit="WattPerSquareMeter">8</light>
+	<light spaceType="hospital_operating_room" unit="WattPerSquareMeter">24</light>
+	<light spaceType="hospital_nursery" unit="WattPerSquareMeter">6</light>
+	<light spaceType="hospital_medical_supply" unit="WattPerSquareMeter">15</light>
+	<light spaceType="hospital_physical_therapy" unit="WattPerSquareMeter">10</light>
+	<light spaceType="hospital_radiology" unit="WattPerSquareMeter">4</light>
+	<light spaceType="hospital_laundry" unit="WattPerSquareMeter">6</light>
+	<light spaceType="automotive_service_repair" unit="WattPerSquareMeter">8</light>
+	<light spaceType="manufacturing_low_bay" unit="WattPerSquareMeter">13</light>
+	<light spaceType="manufacturing_high_bay" unit="WattPerSquareMeter">18</light>
+	<light spaceType="manufacturing_detailed_manufacturing" unit="WattPerSquareMeter">23</light>
+	<light spaceType="manufacturing_equipment_room" unit="WattPerSquareMeter">13</light>
+	<light spaceType="manufacturing_control_room" unit="WattPerSquareMeter">5</light>
+	<light spaceType="hotel_motel_guest_rooms" unit="WattPerSquareMeter">12</light>
+	<light spaceType="dormitory_living_quarters" unit="WattPerSquareMeter">12</light>
+	<light spaceType="museum_general_exhibition" unit="WattPerSquareMeter">11</light>
+	<light spaceType="museum_restoration" unit="WattPerSquareMeter">18</light>
+	<light spaceType="bank_office_banking_activity_area" unit="WattPerSquareMeter">16</light>
+	<light spaceType="workshop" unit="WattPerSquareMeter">20</light>
+	<light spaceType="sales_area" unit="WattPerSquareMeter">18</light>
+	<light spaceType="religious_buildings_worship_pulpit_choir" unit="WattPerSquareMeter">26</light>
+	<light spaceType="religious_buildings_fellowship_hall" unit="WattPerSquareMeter">10</light>
+	<light spaceType="retail_sales_area" unit="WattPerSquareMeter">18</light>
+	<light spaceType="retail_mall_concourse" unit="WattPerSquareMeter">18</light>
+	<light spaceType="sports_arenas_ring_sports_area" unit="WattPerSquareMeter">29</light>
+	<light spaceType="sports_arenas_court_sports_Area" unit="WattPerSquareMeter">25</light>
+	<light spaceType="sports_arenas_indoor_playing_field_area" unit="WattPerSquareMeter">15</light>
+	<light spaceType="warehouse_fine_material_storage" unit="WattPerSquareMeter">15</light>
+	<light spaceType="warehouse_medium_bulky_material_storage" unit="WattPerSquareMeter">10</light>
+	<light spaceType="parking_Garage" unit="WattPerSquareMeter">2</light>
+	<light spaceType="transportation_airport_concourse" unit="WattPerSquareMeter">6</light>
+	<light spaceType="transportation_air_baggage_area" unit="WattPerSquareMeter">11</light>
+	<light spaceType="transportation_termianl_ticket_counter" unit="WattPerSquareMeter">16</light>
+	<data buildingType="quick_service_restaurant" spaceType="dining" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">22.60</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">129.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.39</PeopleNumber>
+	</data>
+	<data buildingType="quick_service_restaurant" spaceType="kitchen" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">12.91</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">301.3</EquipPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="NaturalGas" programId="BuildSimHub">1291.7</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="quick_service_restaurant" spaceType="attic" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">0.0</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">0.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>	
+	<data buildingType="hospital" spaceType="exam" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">29.05</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">16.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4.65</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="office" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">13.27</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="lobby" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">15.82</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">1.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">13.01</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="corridor" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">10.76</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">0.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">92.90</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="emergency_room_nurse_station" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">12.05</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">14.6</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">14.86</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="operation_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">23.67</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">43</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="patient_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.61</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">32.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="icu" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.61</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">32.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4.65</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="physical_therapy" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.68</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">16.4</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="laboratories" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">15.06</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">43.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="radiology" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">4.30</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">53.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="dining" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.68</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">10.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">9.29</PeopleNumber>
+	</data>
+	<data buildingType="hospital" spaceType="kitchen" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">12.91</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">80.7</EquipPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="NaturalGas" programId="BuildSimHub">304.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="retail" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">16.14</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">10.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.19</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="mechanical_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">16.14</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">5.4</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="storage" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.68</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">2.7</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">46.45</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="laundry" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">6.47</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">61.7</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">23.23</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="cafeteria" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">5.4</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.39</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="lobby" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">8.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.10</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="bedroom" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">6.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">26.01</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="corridor" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">5.38</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">0.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">92.90</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="multipurpose_assembly" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">6.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">16.35</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="dining" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">67.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.39</PeopleNumber>
+	</data>
+	<data buildingType="hotel" spaceType="kitchen" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">67.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="office" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">10.76</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">10.76</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="conference_meeting_multipurpose" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">14</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">10.76</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="apartment" spaceType="apartment" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">3.88</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">5.4</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">35.30</PeopleNumber>
+	</data>
+	<data buildingType="apartment" spaceType="corridor" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.91</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">5.38</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="anesthesia" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">32.29</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">21.5</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="bio_haz" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.69</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">1.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="cafeteria" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.69</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">10.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="clean" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">12.92</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">21.5</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="dictation" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="electrical_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">16.15</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">53.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="humid" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="it_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="lobby" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.33</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="hall" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">10.76</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">4.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="toilet" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.69</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">4.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="storage" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.69</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">1.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="locker_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.61</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">32.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="lounge" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.61</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">32.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="mri" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">4.31</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">107.6</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="nourishment" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">10.76</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">21.5</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="office" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="operating_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">23.68</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">43.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="reception" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.33</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="recovery_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.61</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">32.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="scheduling" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="soil" reference="DOE Commercial Prototype Buildings"> 
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">12.92</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">21.5</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="exam_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">16.15</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">11.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="nurse_station" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">10.76</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">21.5</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="x_ray" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">4.31</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">107.6</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="outpatient_health_care" spaceType="physical_therapy" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.69</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">16.2</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="sale" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">18.29</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">3.2</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.19</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="class_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">15.06</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">15.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4.0</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="corridor" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">5.38</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">4.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10.0</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="lobby" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">4.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="mechanical_room" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.26</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">16.14</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">100</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="bathroom" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">9.68</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">4.0</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">100.0</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="office" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">10.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20.0</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="gym" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.47</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">15.06</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.33</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="kitchen" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">12.91</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">190.5</EquipPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="NaturalGas" programId="BuildSimHub">954.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="cafeteria" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">15.06</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">25.4</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.39</PeopleNumber>
+	</data>
+	<data buildingType="primary_education" spaceType="library" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">13.99</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">15.00</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4.35</PeopleNumber>
+	</data>
+	<data buildingType="supermarket" spaceType="office" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">8.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">18.58</PeopleNumber>
+	</data>
+	<data buildingType="supermarket" spaceType="dry_storage" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">8.61</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">8.1</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">27.87</PeopleNumber>
+	</data>
+	<data buildingType="supermarket" spaceType="sales" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">18.29</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">53.8</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">11.61</PeopleNumber>
+	</data>
+	<data buildingType="strip_mall" spaceType="store" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">18.29</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">4.3</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.19</PeopleNumber>
+	</data>
+	<data buildingType="warehouse" spaceType="storage" reference="DOE Commercial Prototype Buildings">
+		<LightPowerPerArea unit="WattPerSquareMeter" programId="BuildSimHub">11.84</LightPowerPerArea>
+		<EquipPowerPerArea unit="WattPerSquareMeter" powerType="Electricity" programId="BuildSimHub">2.6</EquipPowerPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.0</PeopleNumber>
+	</data>
+</dataset>

@@ -1,0 +1,387 @@
+<dataset year="2013" reference="ASHRAE Standard 62.1 20013">
+	<data buildingType="correctional_facility" spaceType="cell">
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="correctional_facility" spaceType="dayroom">
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.33</PeopleNumber>
+	</data>
+	<data buildingType="correctional_facility" spaceType="guard_stations">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="correctional_facility" spaceType="booking_or_Waiting">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="daycare_age_4">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5.88</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="daycare_sickroom">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5.88</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="classrooms_age_5_to_8">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="classrooms_age_9">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">7.69</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="lecture_classroom">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.54</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="lecture_hall">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.67</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="art_classroom">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="science_laboratories">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="university_laboratories">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="wood_or_metal_shop">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="computer_lab">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="media_center">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="music_or_theater_or_dance">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2.86</PeopleNumber>
+	</data>
+	<data buildingType="education_facilities" spaceType="multiuse_assembly">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1</PeopleNumber>
+	</data>
+	<data buildingType="food_and_beverage_service" spaceType="restaurant_dining_rooms">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.43</PeopleNumber>
+	</data>
+	<data buildingType="food_and_beverage_service" spaceType="cafeteria_or_fastfood_dining">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1</PeopleNumber>
+	</data>
+	<data buildingType="food_and_beverage_service" spaceType="bars_or_cocktail_lounges">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1</PeopleNumber>
+	</data>
+	<data buildingType="food_and_beverage_service" spaceType="kitchen">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="general" spaceType="break_room">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="general" spaceType="coffee_stations">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="general" spaceType="conference_meeting">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2</PeopleNumber>
+	</data>
+	<data buildingType="general" spaceType="corridors">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">0</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="general" spaceType="storage_room">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">50</PeopleNumber>
+	</data>
+	<data buildingType="hotels_motels_resorts_dormitories" spaceType="bedroom_or_living_room">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="hotels_motels_resorts_dormitories" spaceType="barracks_sleeping_areas">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>	
+	<data buildingType="hotels_motels_resorts_dormitories" spaceType="laundry_rooms_central">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="hotels_motels_resorts_dormitories" spaceType="laundry_rooms_within_dwelling_units">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="hotels_motels_resorts_dormitories" spaceType="lobbies_or_prefunction">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.33</PeopleNumber>
+	</data>
+	<data buildingType="hotels_motels_resorts_dormitories" spaceType="multipurpose_assembly">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.83</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="breakrooms">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="main_entry_lobbies">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="storage_room_dry_material">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">50</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="office_space">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="recepition_areas">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">3.33</PeopleNumber>
+	</data>
+	<data buildingType="office" spaceType="telephone_or_data_entry">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.67</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="bank_valuts_or_safe_deposit">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">20</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="banks_or_bank_lobbies">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="computer">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">25</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="freezer_and_refrigerated_spaces">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="general_manufacturing">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">14.28</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="pharmacy">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="photo_studio">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="shipping_or_receiving">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">50</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="sorting_packing_light_assembly">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">14.29</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="telephone_closets">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">0</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.0</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="transportation_waiting">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1</PeopleNumber>
+	</data>
+	<data buildingType="miscellaneous_space" spaceType="warehouses">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="auditorium_seating_area">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.67</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="religious_worship">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.83</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="courtrooms">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.43</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="legislative_chambers">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="libraries">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="lobbies">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.67</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="museums_children">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2.5</PeopleNumber>
+	</data>
+	<data buildingType="public_assembly_spaces" spaceType="museums_or_galleries">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2.5</PeopleNumber>
+	</data>
+	<data buildingType="residential" spaceType="dwelling_unit">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">2.5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="residential" spaceType="common_corridors">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">0</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="sales">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">6.67</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="mall_common_areas">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2.5</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="barbershop">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="beauty_and_nail_salons">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">10</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">4</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="pet_shop">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="supermarket">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">12.5</PeopleNumber>
+	</data>
+	<data buildingType="retail" spaceType="coin_operated_laundries">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">5</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="gym_sports_arena">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">10</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">14.29</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="spectator_area">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.67</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="swimming">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">0</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">2.4</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="disco_dance_floors">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">10</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="health_club_aerobics_room">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">10</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2.5</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="health_club_weight_room">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">10</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">10</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="bowling_alley">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.6</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">2.5</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="gambling_casinos">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">3.8</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.9</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">0.83</PeopleNumber>
+	</data>
+	<data buildingType="sports_and_entertainment" spaceType="stages_studios">
+		<OAFlowPerPerson unit="LPerSec" programId="BuildSimHub">5</OAFlowPerPerson>
+		<OAFlowPerArea unit="LPerSecPerSquareM" programId="BuildSimHub">0.3</OAFlowPerArea>
+		<PeopleNumber unit="SquareMPerPerson" programId="BuildSimHub">1.42</PeopleNumber>
+	</data>
+</dataset>
