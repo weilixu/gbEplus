@@ -16,17 +16,8 @@ public class FilesPath{
     
     private static CompositeConfiguration properties = null;
 
-    /**
-     * USED ONLY on init phase, if used for testing/development purpose, make sure to 
-     * remove this function call before publish
-     * @param path
-     */
-    public static void setConfigPath(String path){
-        FilesPath.ConfigPath = path;
-        readConfig();
-    }
-    
     private static void readConfig(){
+    	ConfigPath = "config/server.config";
         properties = new CompositeConfiguration();
         properties.addConfiguration(new SystemConfiguration());
         try {
