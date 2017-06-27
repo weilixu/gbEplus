@@ -66,6 +66,8 @@ public class ReverseTranslator {
         climateTranslator = new ClimateTranslation(ns);
         outputTranslator = new OutputModule(ns);
         
+        idfWriter = new IDFWriter();
+        
         //error log
         errorLog = new Gson();
         
