@@ -43,9 +43,9 @@ public class ASHRAEConstructions implements EnergyPlusDataAPI{
 		construction = new ConstructionParser("Climate Zone 4");//TODO need to adapt it later
 		
 		// add new building envelope related objects
-		ArrayList<String> lines = new ArrayList<String>();
-		ArrayList<String> units = new ArrayList<String>();
-		ArrayList<String> comments = new ArrayList<String>();
+		ArrayList<String> lines = new ArrayList<String>();//values
+		ArrayList<String> units = new ArrayList<String>();//units
+		ArrayList<String> comments = new ArrayList<String>();//
 		ArrayList<String> topComments = new ArrayList<String>();
 
 		ArrayList<EplusObject> objects = construction.getObjects();
