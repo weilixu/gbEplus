@@ -41,15 +41,15 @@ public DataBaseType dataBaseType();
 ```
 The first method returns the name of the plugin and the second method should return one of the [DataBaseType](src/main/java/api/DataBaseType.java). The **DataBaseType** defines the data interference point in the translation process. For example, if the plugin database type is ```DataBaseType.CONSTRUCTION```, then the translator will use this database to impute any missing consutrions while translating gbXML.
 The current types include:
-1. CONSTRUCTION: include material, depends on your database structure, it can be layer-by-layer method or no:mass method
-2. FENESTRATION
-3. INTERNALLOAD: this include lighting, equipment and occupants.
-4. LIGHTING: lighting
-5. SCHEDULE: includes all the activity schedules
-6. EQUIPMENT: plug load data
-7. OUTDOORAIR: outdoor air requirements based on zone types
-8. HVAC: hvac data for the building
-9. HVACANDSCHEDULE: hvac data with hvac schedules.
+1. **CONSTRUCTION**: include material, depends on your database structure, it can be layer-by-layer method or no:mass method
+2. **FENESTRATION**
+3. **INTERNALLOAD**: this include lighting, equipment and occupants.
+4. **LIGHTING**: lighting
+5. **SCHEDULE**: includes all the activity schedules
+6. **EQUIPMENT**: plug load data
+7. **OUTDOORAIR**: outdoor air requirements based on zone types
+8. **HVAC**: hvac data for the building
+9. **HVACANDSCHEDULE**: hvac data with hvac schedules.
 
 ### Main method to write in data 
 Depends on the purpose of the plugin, the write in methods could varies. There are currently 5 different ways to write data into the translation process:
@@ -62,7 +62,6 @@ public Map<String, String[]> getValuesInHashMap(String identifier);
 ```
 The first two methods allows PlugIn developers to write in entire systems into the EnergyPlus file. For example, you can write in the whole HVAC systems into the EnergyPlus file, or the entire construction set. Since it is writing in system, gbEplus are expecting the plugin developer to write in the system. Therefore, gbEplus provides its EnergyPlus data structure (*IDFFileObject*) to the developer.
 
-
-[## The EnergyPlus data structure for writing and reading](#eplus_datastructure_anchor)
+[](#eplus_datastructure_anchor)## The EnergyPlus data structure for writing and reading
 
 
