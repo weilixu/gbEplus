@@ -60,7 +60,7 @@ public String getValueInString(String identifier);
 public Double getValueInDouble(String identifier);
 public Map<String, String[]> getValuesInHashMap(String identifier);
 ```
-The first two methods allows PlugIn developers to write in entire systems into the EnergyPlus file. For example, you can write in the whole HVAC systems into the EnergyPlus file, or the entire construction set. Since it is writing in system, gbEplus are expecting the plugin developer to write in the system. Therefore, gbEplus provides its EnergyPlus data structure (*IDFFileObject*) to the developer.
+The first two methods allows PlugIn developers to write in entire systems into the EnergyPlus file. For example, you can write in the whole HVAC systems into the EnergyPlus file, or the entire construction set. Since it is writing in system, gbEplus are expecting the plugin developer to write in the system. Therefore, gbEplus provides its EnergyPlus data structure (*[](#eplus_datastructure_anchor)IDFFileObject*) to the developer.
 
 ## [](#eplus_datastructure_anchor)The EnergyPlus data structure for writing and reading
 
