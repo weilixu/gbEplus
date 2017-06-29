@@ -16,5 +16,4 @@ public enum DataBaseType {
 	OUTDOORAIR, //outdoor air requirements
 	HVAC,// HVAC data
 	HVACANDSCHEDULE;//hvac with hvac schedule.
-	
 }
