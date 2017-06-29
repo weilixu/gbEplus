@@ -60,7 +60,29 @@ public String getValueInString(String identifier);
 public Double getValueInDouble(String identifier);
 public Map<String, String[]> getValuesInHashMap(String identifier);
 ```
-The first two methods allows PlugIn developers to write in entire systems into the EnergyPlus file. For example, you can write in the whole HVAC systems into the EnergyPlus file, or the entire construction set. Since it is writing in system, gbEplus are expecting the plugin developer to write in the system. Therefore, gbEplus provides its EnergyPlus data structure (*[](#eplus_datastructure_anchor)IDFFileObject*) to the developer.
+The first two methods allows PlugIn developers to write in entire systems into the EnergyPlus file. For example, you can write in the whole HVAC systems into the EnergyPlus file, or the entire construction set. Since it is writing in system, gbEplus are expecting the plugin developer to write in the system. Therefore, gbEplus provides its EnergyPlus data structure (*IDFFileObject*) to the developer. On top of the data structure, the translator also expects plugin developers to either 1. identify the ID to object name in the *id_to_NameMap* map or directly interact with the translator (The translator contains some of the critical information of the building such as floor area, volume etc.).
+
+Instead of writing in data, the remaining three methods allows translator to extract values from database. Therefore, it is not necessary for developer to learn the data structure of the system because the translator takes care of the write in part. For example, if you wish to write in the office lighing power density or occupancy density into the translation.
+
+Some Plugin examples are included in the plugin folder. These are the data extracted from the [ASHRAE](https://www.ashrae.org/) standards.
+
+### Database format for Data Plugins
+There is no fixed database format for the data plugins. As long as your data plugin understand your own database format and can be translated and write in the energyplus file. It is fine. However, gbEplus do have a default xml parser that reads a specially defined XML format.
+```xml
+	<dataset setname="Construction" category="Climate Zone 1">
+		<object description="Material" reference = "Climate Zone 1">
+			<field description = "Name" type="String">Gypsum Board</field>
+			<field description = "Roughness" type="String">MediumRough</field>
+			<field description = "Thickness" type="Double">0.0159</field>
+			<field description = "Conductivity" type="Double">0.16</field>
+			<field description = "Density" type="Double">800.0</field>
+			<field description = "Specific Heat" type="Double">1090.0</field>
+			<field description = "Thermal Absorptance" type="Double">0.9</field>
+			<field description = "Solar Absorptance" type = "Double">0.7</field>
+			<field description = "Visible Absorptance" type = "Double">0.7</field>
+		</object>
+  </dataset>
+```
 
 ## [](#eplus_datastructure_anchor)The EnergyPlus data structure for writing and reading
 
