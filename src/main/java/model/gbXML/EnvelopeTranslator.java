@@ -34,7 +34,7 @@ public class EnvelopeTranslator {
 	public void generateAssumptions(IDFFileObject file, EnergyPlusDataAPI constructionAPI){
 		constructionAPI.writeInSystem(file, bs_idToObjectMap);
 		//TODO announce the used construction plugin name
-		System.out.println(constructionAPI.dataBaseName());
+		//System.out.println(constructionAPI.dataBaseName());
 	}
 
 	public String getObjectName(String id) {

@@ -2,13 +2,10 @@ package main.java.plugins.ashraeassumptions;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.UUID;
 
 import main.java.api.DataBaseType;
-import main.java.api.EnergyPlusDataAPI;
 import main.java.model.data.EplusObject;
-import main.java.model.gbXML.ReverseTranslator;
 import main.java.model.idf.IDFFileObject;
 import main.java.model.idf.IDFObject;
 import main.java.plugins.ashraebaseline.ConstructionParser;
@@ -19,14 +16,10 @@ import main.java.plugins.ashraebaseline.ConstructionParser;
  * @author weilixu
  *
  */
-public class ASHRAEConstructions implements EnergyPlusDataAPI{
+public class ASHRAEConstructions extends ASHRAEDataSet{
 
 	private ConstructionParser construction;
 	//private HashMap<String, String> bs_idToObjectMap;
-
-	public ASHRAEConstructions() {
-		
-	}
 
 	@Override
 	public String dataBaseName() {
@@ -74,26 +67,4 @@ public class ASHRAEConstructions implements EnergyPlusDataAPI{
 		}
 		
 	}
-
-	@Override
-	public String getValueInString(String identifier) {
-		return null;
-	}
-
-	@Override
-	public Double getValueInDouble(String identifier) {
-		return null;
-	}
-
-	@Override
-	public Map<String, String[]> getValuesInHashMap(String identifier) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void writeInHVACSystem(IDFFileObject objectFile, ReverseTranslator translator) {
-		
-	}
-
 }

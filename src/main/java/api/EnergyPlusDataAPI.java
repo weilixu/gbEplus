@@ -18,6 +18,14 @@ public interface EnergyPlusDataAPI {
 	public String dataBaseName();
 
 	public DataBaseType dataBaseType();
+	
+	/**
+	 * This function allows for translator to check whether this plugin is required to have another plugin to work with
+	 * This usually happens when two plugins carry two pieces of information but these two information should be connected.
+	 * An example is constructions and windows link to orientation of surfaces.
+	 * @return 
+	 */
+	public HashMap<DataBaseType, String> requiredCoPlugins();
 
 	/**
 	 * This is the method that write in a whole system into EnergyPlus file
@@ -34,6 +42,13 @@ public interface EnergyPlusDataAPI {
 	 * @param translator
 	 */
 	public void writeInHVACSystem(IDFFileObject objectFile, ReverseTranslator translator);
+	
+	/**
+	 * This method allows developer to write in objects that is reserved for later usage
+	 * e.g. thermal zone, write in thermal zones for the space element processing
+	 * @param translator
+	 */
+	public void writeInObjects(ReverseTranslator translator);
 
 	/**
 	 * get the value from plugin in the format of String
