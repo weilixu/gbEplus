@@ -35,7 +35,8 @@ public class EnergyPlusFieldTemplate implements Serializable{
     private static final String OBJECTLISTTOKEN = "\\object-list";//name of a list of user-provided object names (use with \reference)
     private static final String EXTERNALLISTTOKEN = "\\external-list";//the value for this field should selected from a special list generated outside of the IDD file
     private static final String REFERENCETOKEN = "\\reference";//name of a list of names to which this object belongs used with "\type object-list" and with "object-list"
-    
+    private static final String REFERENCTOKEN_NEW = "\\reference-class-name";//new 8.7 version idd reference identification
+   
     private String fieldName;
     private StringBuffer note;
     private boolean required = false;
@@ -216,6 +217,8 @@ public class EnergyPlusFieldTemplate implements Serializable{
             objectListRef.add(getContentFromLine(line,OBJECTLISTTOKEN));
         }else if(line.contains(EXTERNALLISTTOKEN)){
             externalListRef = getContentFromLine(line,EXTERNALLISTTOKEN);//either output:variable or output:meter
+        }else if(line.contains(REFERENCTOKEN_NEW)){
+        	reference.add(getContentFromLine(line, REFERENCTOKEN_NEW));
         }else if(line.contains(REFERENCETOKEN)){
             reference.add(getContentFromLine(line,REFERENCETOKEN));
         }

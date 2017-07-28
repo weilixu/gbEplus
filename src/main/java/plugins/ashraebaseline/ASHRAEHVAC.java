@@ -3,19 +3,18 @@ package main.java.plugins.ashraebaseline;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.Set;
 
 import main.java.api.DataBaseType;
-import main.java.api.EnergyPlusDataAPI;
 import main.java.model.data.EplusObject;
 import main.java.model.gbXML.CampusTranslator;
 import main.java.model.gbXML.ReverseTranslator;
 import main.java.model.gbXML.ScheduleTranslator;
 import main.java.model.idf.IDFFileObject;
 import main.java.model.idf.IDFObject;
+import main.java.plugins.ashraeassumptions.ASHRAEDataSet;
 
-public class ASHRAEHVAC implements EnergyPlusDataAPI{
+public class ASHRAEHVAC extends ASHRAEDataSet{
 	
 	// HVAC related objects
 	private HVACSystemFactory factory;
@@ -114,25 +113,5 @@ public class ASHRAEHVAC implements EnergyPlusDataAPI{
 	@Override
 	public DataBaseType dataBaseType() {
 		return DataBaseType.HVAC;
-	}
-
-	@Override
-	public void writeInSystem(IDFFileObject objectFile, HashMap<String, String> id_to_NameMap) {
-		
-	}
-
-	@Override
-	public String getValueInString(String identifier) {
-		return null;
-	}
-
-	@Override
-	public Double getValueInDouble(String identifier) {
-		return null;
-	}
-
-	@Override
-	public Map<String, String[]> getValuesInHashMap(String identifier) {
-		return null;
 	}
 }

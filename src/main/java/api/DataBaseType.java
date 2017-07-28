@@ -11,6 +11,7 @@ public enum DataBaseType {
 	FENESTRATION, //windows
 	INTERNALLOAD,//internal load should include lighting, equipment and occupants
 	LIGHTING, // lighting data
+	THERMALZONE,//thermal zone data - include air conditioning setpoint, OA, people and possibly, the ventilation and air conditioning zone group
 	SCHEDULE, // schedules
 	EQUIPMENT, // equipment data
 	OUTDOORAIR, //outdoor air requirements

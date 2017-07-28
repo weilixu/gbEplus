@@ -17,6 +17,7 @@ import org.jdom2.Namespace;
 public class GbXMLThermalZone {
     
     private Namespace ns;
+    private String zoneKey;
         
     private String heatScheduleId;
     private String coolScheduleId;
@@ -47,9 +48,45 @@ public class GbXMLThermalZone {
     //private List<IDFObject> zoneRelatedObjects;
     private int thermostatControlType;
     
-    public GbXMLThermalZone(Namespace ns){
+    protected GbXMLThermalZone(Namespace ns){
         this.ns = ns;
         //zoneRelatedObjects = new ArrayList<IDFObject>();
+    }
+    
+    /**
+     * used for manually write in Thermal zone information - 
+     * initialize will use office settings with no schedule
+     * attached
+     * @param zoneData
+     */
+    public GbXMLThermalZone(String zoneKey){
+    	this.zoneKey = zoneKey;
+    	
+        heatScheduleId = "";
+        coolScheduleId = "";
+        oaScheduleId = "";
+        achScheduleId = "";
+        fanScheduleId = "";
+        
+        DesignHeatT = 21.0;
+        DesignCoolT = 24.0;
+        ACH = 0.0;
+        flowPerArea = 0.0025;
+        flowPerPerson = 0.0006;
+        OAFlowPerArea = 0.0025;
+        OAFlowPerPerson = 0.0006;
+        OAFlowPerZone = 0.0;
+        maxOAFlowPerZone = 0.0;
+        minOAFlowPerZone = 0.0;
+        minimumOutdoorAirControlType = ""; //{FixedMinimum, ProportionalMinimum}
+        
+        hydronicLoopIdRef = "";
+        hydronicLoopType = "";
+        AirLoopId = "";
+        coolingSizingFactor = 1.15;
+        heatingSizingFactor = 1.25;
+        baseBoardHeatingType = ""; //{ACH, HotWater, Electric}
+        baseboardHeatingCaapcity = "";
     }
     
     /**
@@ -158,6 +195,10 @@ public class GbXMLThermalZone {
             AirLoopId = airLoopId.getAttributeValue("airLoopIdRef");
         }
         //
+    }
+    
+    public String getZoneKey(){
+    	return zoneKey;
     }
     
     public String getHeatScheduleId() {
@@ -270,4 +311,104 @@ public class GbXMLThermalZone {
     public int getThermostatControlType() {
         return thermostatControlType;
     }
+
+	public Namespace getNs() {
+		return ns;
+	}
+
+	public void setHeatScheduleId(String heatScheduleId) {
+		this.heatScheduleId = heatScheduleId;
+	}
+
+	public void setCoolScheduleId(String coolScheduleId) {
+		this.coolScheduleId = coolScheduleId;
+	}
+
+	public void setOaScheduleId(String oaScheduleId) {
+		this.oaScheduleId = oaScheduleId;
+	}
+
+	public void setAchScheduleId(String achScheduleId) {
+		this.achScheduleId = achScheduleId;
+	}
+
+	public void setFanScheduleId(String fanScheduleId) {
+		this.fanScheduleId = fanScheduleId;
+	}
+
+	public void setDesignHeatT(Double designHeatT) {
+		DesignHeatT = designHeatT;
+	}
+
+	public void setDesignCoolT(Double designCoolT) {
+		DesignCoolT = designCoolT;
+	}
+
+	public void setACH(Double aCH) {
+		ACH = aCH;
+	}
+
+	public void setFlowPerArea(Double flowPerArea) {
+		this.flowPerArea = flowPerArea;
+	}
+
+	public void setFlowPerPerson(Double flowPerPerson) {
+		this.flowPerPerson = flowPerPerson;
+	}
+
+	public void setOAFlowPerArea(Double oAFlowPerArea) {
+		OAFlowPerArea = oAFlowPerArea;
+	}
+
+	public void setOAFlowPerPerson(Double oAFlowPerPerson) {
+		OAFlowPerPerson = oAFlowPerPerson;
+	}
+
+	public void setOAFlowPerZone(Double oAFlowPerZone) {
+		OAFlowPerZone = oAFlowPerZone;
+	}
+
+	public void setMaxOAFlowPerZone(Double maxOAFlowPerZone) {
+		this.maxOAFlowPerZone = maxOAFlowPerZone;
+	}
+
+	public void setMinOAFlowPerZone(Double minOAFlowPerZone) {
+		this.minOAFlowPerZone = minOAFlowPerZone;
+	}
+
+	public void setMinimumOutdoorAirControlType(String minimumOutdoorAirControlType) {
+		this.minimumOutdoorAirControlType = minimumOutdoorAirControlType;
+	}
+
+	public void setHydronicLoopIdRef(String hydronicLoopIdRef) {
+		this.hydronicLoopIdRef = hydronicLoopIdRef;
+	}
+
+	public void setHydronicLoopType(String hydronicLoopType) {
+		this.hydronicLoopType = hydronicLoopType;
+	}
+
+	public void setAirLoopId(String airLoopId) {
+		AirLoopId = airLoopId;
+	}
+
+	public void setCoolingSizingFactor(Double coolingSizingFactor) {
+		this.coolingSizingFactor = coolingSizingFactor;
+	}
+
+	public void setHeatingSizingFactor(Double heatingSizingFactor) {
+		this.heatingSizingFactor = heatingSizingFactor;
+	}
+
+	public void setBaseBoardHeatingType(String baseBoardHeatingType) {
+		this.baseBoardHeatingType = baseBoardHeatingType;
+	}
+
+	public void setBaseboardHeatingCaapcity(String baseboardHeatingCaapcity) {
+		this.baseboardHeatingCaapcity = baseboardHeatingCaapcity;
+	}
+
+	public void setThermostatControlType(int thermostatControlType) {
+		this.thermostatControlType = thermostatControlType;
+	}
 }

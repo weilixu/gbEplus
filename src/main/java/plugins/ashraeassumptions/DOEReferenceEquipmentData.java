@@ -12,12 +12,9 @@ import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
 import main.java.api.DataBaseType;
-import main.java.api.EnergyPlusDataAPI;
 import main.java.config.FilesPath;
-import main.java.model.gbXML.ReverseTranslator;
-import main.java.model.idf.IDFFileObject;
 
-public class DOEReferenceEquipmentData implements EnergyPlusDataAPI{
+public class DOEReferenceEquipmentData extends ASHRAEDataSet{
 	
 	 private Element spaceMapperRoot;
 	 private Element internalLoadRoot;
@@ -44,18 +41,7 @@ public class DOEReferenceEquipmentData implements EnergyPlusDataAPI{
 	public DataBaseType dataBaseType() {
 		return DataBaseType.EQUIPMENT;
 	}
-	@Override
-	public void writeInSystem(IDFFileObject objectFile, HashMap<String, String> id_to_NameMap) {
-		
-	}
-	@Override
-	public String getValueInString(String identifier) {
-		return null;
-	}
-	@Override
-	public Double getValueInDouble(String identifier) {
-		return null;
-	}
+
 	@Override
 	public Map<String, String[]> getValuesInHashMap(String identifier) {
 	      HashMap<String, String[]> loadMap = new HashMap<String,String[]>();//loadItem, 1:value, 2 unit
@@ -91,10 +77,4 @@ public class DOEReferenceEquipmentData implements EnergyPlusDataAPI{
 	        }
 	        return loadMap;
 	}
-
-	@Override
-	public void writeInHVACSystem(IDFFileObject objectFile, ReverseTranslator translator) {
-		
-	}
-
 }

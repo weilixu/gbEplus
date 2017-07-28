@@ -12,10 +12,7 @@ import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 
 import main.java.api.DataBaseType;
-import main.java.api.EnergyPlusDataAPI;
 import main.java.config.FilesPath;
-import main.java.model.gbXML.ReverseTranslator;
-import main.java.model.idf.IDFFileObject;
 
 /**
  * ASHRAE 62.1 OA data for the assumptions
@@ -23,7 +20,7 @@ import main.java.model.idf.IDFFileObject;
  * @author weilixu
  *
  */
-public class ASHRAEOAData implements EnergyPlusDataAPI {
+public class ASHRAEOAData extends ASHRAEDataSet {
 	private Element ASHRAEOARoot;
 	private Element spaceMapperRoot;
 
@@ -54,21 +51,6 @@ public class ASHRAEOAData implements EnergyPlusDataAPI {
 	@Override
 	public DataBaseType dataBaseType() {
 		return DataBaseType.OUTDOORAIR;
-	}
-
-	@Override
-	public void writeInSystem(IDFFileObject objectFile, HashMap<String, String> id_to_NameMap) {
-		// empty not used
-	}
-
-	@Override
-	public String getValueInString(String identifier) {
-		return null;
-	}
-
-	@Override
-	public Double getValueInDouble(String identifier) {
-		return null;
 	}
 
 	@Override
@@ -117,10 +99,5 @@ public class ASHRAEOAData implements EnergyPlusDataAPI {
 			}
 		}
 		return (HashMap<String, String[]>) oaMap;
-	}
-
-	@Override
-	public void writeInHVACSystem(IDFFileObject objectFile, ReverseTranslator translator) {
-		
 	}
 }

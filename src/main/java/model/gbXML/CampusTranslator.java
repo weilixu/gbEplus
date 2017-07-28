@@ -51,6 +51,10 @@ public class CampusTranslator {
 		idfWriter = new IDFWriter();
 		this.dataPlugins = dataPlugins;
 	}
+	
+	public void addThermalZone(GbXMLThermalZone thermalZone){
+		
+	}
 
 	public void setEnvelopeTranslator(EnvelopeTranslator et) {
 		envelopeTranslator = et;
