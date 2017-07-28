@@ -28,10 +28,18 @@ public class IDFWriter {
         topComments = new ArrayList<String>();
     }
     
+    /**
+     * Set idd parser version
+     * @param parser
+     */
     public void setIddParser(IddParser parser){
     	IDDData = parser;
     }
     
+    /**
+     * 
+     * @param objectLabel
+     */
     public void setProcessingObject(String objectLabel){
     	if(IDDData == null){
     		//TODO raise exception
@@ -43,10 +51,19 @@ public class IDFWriter {
     	}
     }
     
+    /**
+     * total size of the fields for an object
+     * @return
+     */
     public int getSizeOfFields(){
     	return objectTemplate.getNumberOfFields();
     }
     
+    /**
+     * The next field comment
+     * @param index
+     * @return
+     */
     public String getNextAvailableFieldComment(int index){
     	return objectTemplate.getFieldTemplateByIndex(index).getFieldName();
     }

@@ -328,21 +328,24 @@ public class ScheduleTranslator {
      * @param value
      */
     public void addSimpleCompactSchedule(String scheduleName, String scheduleId,Double value, IDFFileObject file){
-        bs_idToObjectMap.put(scheduleId, scheduleName);
-        idfWriter.recordInputs("Schedule:Compact","","","");
-        idfWriter.recordInputs(scheduleName,"","Name","");
-        if(scheduleId.contains("controlType")){
-        	idfWriter.recordInputs("Control Type","","Schedule Type Limits Name","");
+        if(!bs_idToObjectMap.containsKey(scheduleId)){
+        	bs_idToObjectMap.put(scheduleId, scheduleName);
+            idfWriter.recordInputs("Schedule:Compact","","","");
+            idfWriter.recordInputs(scheduleName,"","Name","");
+            if(scheduleId.contains("controlType")){
+            	idfWriter.recordInputs("Control Type","","Schedule Type Limits Name","");
+            }else{
+            	idfWriter.recordInputs("Any Number","","Schedule Type Limits Name","");
+                
+            }
+            idfWriter.recordInputs("Through: 12/31","","Field 1","");
+            idfWriter.recordInputs("For: AllDays","","Field 2","");
+            idfWriter.recordInputs("Until: 24:00","","Field 3","");
+            idfWriter.recordInputs(value.toString(),"","Field4","");
+            idfWriter.addObject(file);        	
         }else{
-        	idfWriter.recordInputs("Any Number","","Schedule Type Limits Name","");
-            
+        	//skip this step - no use right nows
         }
-        idfWriter.recordInputs("Through: 12/31","","Field 1","");
-        idfWriter.recordInputs("For: AllDays","","Field 2","");
-        idfWriter.recordInputs("Until: 24:00","","Field 3","");
-        idfWriter.recordInputs(value.toString(),"","Field4","");
-        idfWriter.addObject(file);
-        
     }
     
     /**
